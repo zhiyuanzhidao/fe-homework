@@ -37,6 +37,8 @@ img{
     color:#fe6d48;
 }
 .baby:hover{
+    background:#ff8605;
+    color:#ffffff;
     background-image:-webkit-linear-gradient(to top right, #fe8904, g#ff5802);
     background-image:linear-gradient(to top right,#fe8904, g#ff5802);
 }
@@ -46,9 +48,32 @@ img{
     left:200px;
     color:#fe6d48;
 }
+.cat:hover{
+    background:#ff8605;
+    color:#ffffff;
+    background-image:-webkit-linear-gradient(to top right, #fe8904, g#ff5802);
+    background-image:linear-gradient(to top right,#fe8904, g#ff5802);
+}
 .shop{
     position: absolute;
     top:100px;
     left:260px;
     color:#fe6d48;
+}
+.shop:hover{
+    background:#ff8605;
+    color:#ffffff;
+    background-image:-webkit-linear-gradient(to top right, #fe8904, g#ff5802);
+    background-image:linear-gradient(to top right,#fe8904, g#ff5802);
+}
+input:hover{
+    visibility: visible;
+}
+.main-content{
+    position: absolute;
+    border:2px solid #dedede;
+    width: 500px;
+    height: 200px;
+    left:130px;
+    visibility: hidden
 }
